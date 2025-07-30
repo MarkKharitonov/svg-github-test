@@ -1,0 +1,38 @@
+<svg width="3000" height="2000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="3000" height="2000" fill="#f0f8ff"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="3000" height="2000" fill="url(#grid)"/>
+  
+  <!-- Large circles scattered across the canvas -->
+  <circle cx="400" cy="300" r="120" fill="#ff6b6b" opacity="0.7"/>
+  <circle cx="1200" cy="500" r="150" fill="#4ecdc4" opacity="0.7"/>
+  <circle cx="2000" cy="800" r="100" fill="#45b7d1" opacity="0.7"/>
+  <circle cx="2500" cy="400" r="180" fill="#96ceb4" opacity="0.7"/>
+  <circle cx="800" cy="1200" r="140" fill="#ffeaa7" opacity="0.7"/>
+  <circle cx="1600" cy="1500" r="160" fill="#fd79a8" opacity="0.7"/>
+  <circle cx="2800" cy="1600" r="110" fill="#6c5ce7" opacity="0.7"/>
+  
+  <!-- Rectangles -->
+  <rect x="200" y="600" width="300" height="200" fill="#a29bfe" opacity="0.6"/>
+  <rect x="1000" y="1000" width="400" height="150" fill="#fd79a8" opacity="0.6"/>
+  <rect x="1800" y="300" width="250" height="300" fill="#00b894" opacity="0.6"/>
+  <rect x="2200" y="1200" width="350" height="250" fill="#fdcb6e" opacity="0.6"/>
+  
+  <!-- Triangular shapes -->
+  <polygon points="100,1800 400,1800 250,1500" fill="#e17055" opacity="0.8"/>
+  <polygon points="1400,200 1700,200 1550,50" fill="#00cec9" opacity="0.8"/>
+  <polygon points="2600,1000 2900,1100 2700,1300" fill="#a29bfe" opacity="0.8"/>
+  
+  <!-- Text labels at various positions -->
+  <text x="500" y="100" font-family="Arial, sans-serif" font-size="48" fill="#2d3436">Large SVG Content</text>
+  <text x="1200" y="1800" font-family="Arial, sans-serif" font-size="36" fill="#636e72">Width: 3000px</text>
+  <text x="2400" y="1900" font-family="Arial, sans-serif" font-size="36" fill="#636e72">Height: 2000px</text>
+  <text x="100" y="1000" font-family="Arial, sans-serif" font-size="24" fill="#74b9ff">Scroll to explore</text>
+</svg>

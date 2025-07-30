@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <object id="main-svg" data="large-graphic.svg" type="image/svg+xml"></object>
+    <div id="minimap">
+        <object data="large-graphic.svg" type="image/svg+xml" width="196" height="131"></object>
+        <div id="viewport"></div>
+    </div>
+    <script src="minimap.js"></script>
+</body>
+
+</html>

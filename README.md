@@ -1,0 +1,1 @@
+[large-graphic](large-graphic.svg)
